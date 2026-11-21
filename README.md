@@ -4,7 +4,7 @@
 
 Welcome to my GitHub profile!
 
-I am an aspiring Data Scientist with an academic background in Artificial Intelligence and a strong interest in data analysis, statistical exploration, and machine learning.
+I am Data Scientist with an academic background in Artificial Intelligence and a strong interest in data science, statistical exploration, and machine learning.
 
 This GitHub profile documents my technical learning journey, hands-on projects, practical experiments, and implementation of Data Science concepts. I work with datasets to explore patterns, develop predictive models, evaluate results, and communicate meaningful insights.
 

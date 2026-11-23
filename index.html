@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Rohan Ingle — Data Scientist portfolio. Explore machine learning, data analytics, Python, SQL and Power BI projects.">
+  <title>Rohan Ingle | Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Rohan Ingle home"><span class="brand-mark">RI</span><span>Rohan Ingle</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> DATA SCIENCE • MACHINE LEARNING • ANALYTICS</p>
+          <h1>Hi, I'm <span>Rohan Ingle.</span><br>Data Scientist.</h1>
+          <p class="hero-text">I turn data into useful insights and build practical machine learning solutions. I enjoy exploring datasets, understanding patterns, and communicating what the numbers reveal.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-outline" href="mailto:Irohan428@gmail.com">Get in touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/ImRo03" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/imro03/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="mailto:Irohan428@gmail.com">Email ↗</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-top"><span class="panel-label">CURRENT TOOLKIT</span><span class="panel-orbit">✳</span></div>
+          <div class="code-window">
+            <div class="window-bar"><i></i><i></i><i></i><span>data_workflow.py</span></div>
+            <pre><span class="code-purple">import</span> pandas <span class="code-purple">as</span> pd
+<span class="code-purple">from</span> sklearn.model_selection <span class="code-purple">import</span> train_test_split
+
+data = pd.<span class="code-blue">read_csv</span>(<span class="code-green">"dataset.csv"</span>)
+X_train, X_test, y_train, y_test = <span class="code-blue">train_test_split</span>(
+    X, y, test_size=<span class="code-orange">0.2</span>, random_state=<span class="code-orange">42</span>
+)
+
+<span class="code-comment"># Explore. Model. Evaluate. Improve.</span>
+<span class="code-purple">print</span>(<span class="code-green">"Turning data into insight."</span>)</pre>
+          </div>
+          <div class="tool-chips"><span>Python</span><span>SQL</span><span>Scikit-learn</span><span>Power BI</span><span>Pandas</span></div>
+          <div class="panel-foot"><span>BUILDING WITH DATA</span><span>01 / 04</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>BASED IN PUNE, INDIA</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-kicker">01 / ABOUT</div>
+      <div class="about-grid">
+        <div><h2>Curious about data.<br><span>Focused on impact.</span></h2></div>
+        <div class="about-copy">
+          <p class="lead">I'm a B.Tech Artificial Intelligence graduate with a focus on data science, statistical analysis, and machine learning.</p>
+          <p>My work includes analysing customer and business datasets, preparing data, comparing predictive models, and building dashboards that make findings easier to understand. I value clear methodology, meaningful evaluation metrics, and practical interpretation.</p>
+          <a class="text-link" href="https://github.com/ImRo03" target="_blank" rel="noreferrer">Explore my GitHub profile <span>↗</span></a>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div><strong>Python</strong><span>Analysis & modelling</span></div>
+        <div><strong>SQL</strong><span>Data querying</span></div>
+        <div><strong>ML</strong><span>Predictive modelling</span></div>
+        <div><strong>BI</strong><span>Dashboard storytelling</span></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-kicker">02 / SELECTED WORK</div>
+      <div class="section-heading"><div><h2>Projects built<br><span>through practice.</span></h2></div><p>A selection of machine learning, analytics, and business intelligence work. Open each repository to explore the notebooks, methods, and supporting material.</p></div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All work</button>
+        <button class="filter" data-filter="machine-learning">Machine learning</button>
+        <button class="filter" data-filter="bi">Power BI</button>
+        <button class="filter" data-filter="analytics">Data analytics</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured" data-category="machine-learning">
+          <div class="project-visual visual-churn"><span class="visual-tag">CLASSIFICATION</span><div class="mini-chart"><span style="height:38%"></span><span style="height:62%"></span><span style="height:49%"></span><span style="height:83%"></span><span style="height:68%"></span><span style="height:94%"></span></div><b>Customer<br>Churn</b></div>
+          <div class="project-content"><div class="project-meta"><span>MACHINE LEARNING</span><span>01</span></div><h3>Customer Churn & Retention Prediction</h3><p>Analysed 7,043 IBM Telco customer records and compared classification models. Balanced Logistic Regression achieved 78.34% churn recall and a 61.36% churn F1-score.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>XGBoost</span></div><a class="project-link" href="https://github.com/ImRo03/Customer-Churn-and-Retention-Prediction" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="machine-learning">
+          <div class="project-visual visual-bank"><span class="visual-tag">IMBALANCED CLASSIFICATION</span><div class="bank-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><b>Bank<br>Marketing</b></div>
+          <div class="project-content"><div class="project-meta"><span>MACHINE LEARNING</span><span>02</span></div><h3>Bank Marketing – Term Deposit Prediction</h3><p>Worked with 45,211 campaign records, benchmarked eight classifiers, and explored resampling, threshold tuning, cross-validation, and model optimisation.</p><div class="tags"><span>Python</span><span>SMOTE</span><span>XGBoost</span></div><a class="project-link" href="https://github.com/ImRo03/Bank-Marketing-Term-Deposit-Prediction" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="machine-learning">
+          <div class="project-visual visual-car"><span class="visual-tag">REGRESSION</span><div class="line-plot"><svg viewBox="0 0 300 100" role="img" aria-label="Decorative upward trend line"><path d="M5 82 C45 72 50 30 92 49 S142 65 175 34 S230 42 295 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M5 82 C45 72 50 30 92 49 S142 65 175 34 S230 42 295 8 L295 100 L5 100Z" fill="currentColor" opacity=".12"/></svg></div><b>Price<br>Prediction</b></div>
+          <div class="project-content"><div class="project-meta"><span>MACHINE LEARNING</span><span>03</span></div><h3>Used Car Price Prediction</h3><p>Analysed 1,725 vehicle records and compared Linear Regression, Random Forest, and Gradient Boosting. Random Forest achieved an R² score of 0.725.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Regression</span></div><a class="project-link" href="https://github.com/ImRo03/Used-Car-Price-Prediction" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="bi">
+          <div class="project-visual visual-superstore"><span class="visual-tag">BUSINESS INTELLIGENCE</span><div class="dash-mock"><div></div><div></div><div></div><div></div><div></div></div><b>Superstore<br>Sales</b></div>
+          <div class="project-content"><div class="project-meta"><span>POWER BI</span><span>04</span></div><h3>Superstore Sales Analysis</h3><p>Explored sales, profitability, regional performance, customer segments, and product categories through a Power BI business intelligence dashboard.</p><div class="tags"><span>Power BI</span><span>DAX</span><span>Data Modelling</span></div><a class="project-link" href="https://github.com/ImRo03/-Superstore-Sales-Analysis-Power-BI-Project" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="bi">
+          <div class="project-visual visual-marketing"><span class="visual-tag">CUSTOMER ANALYTICS</span><div class="donut-wrap"><div class="donut"></div><div class="donut-label">2,240<span>customers</span></div></div><b>Marketing<br>Insights</b></div>
+          <div class="project-content"><div class="project-meta"><span>POWER BI</span><span>05</span></div><h3>Customer Marketing Insights Dashboard</h3><p>Built a dashboard exploring customer demographics, spending patterns, purchase channels, and marketing response metrics using DAX measures and slicers.</p><div class="tags"><span>Power BI</span><span>DAX</span><span>Customer Analytics</span></div><a class="project-link" href="https://github.com/ImRo03/Customer-marketing-sales-using-power-Bi" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="analytics">
+          <div class="project-visual visual-games"><span class="visual-tag">EXPLORATORY ANALYSIS</span><div class="game-grid"><i>01</i><i>02</i><i>03</i><i>04</i></div><b>Video Game<br>Analysis</b></div>
+          <div class="project-content"><div class="project-meta"><span>DATA ANALYTICS</span><span>06</span></div><h3>Video Game Data Analysis</h3><p>Explored sales, platforms, publishers, genres, and ratings, with a focus on identifying market patterns and developing business questions and recommendations.</p><div class="tags"><span>Excel</span><span>Data Cleaning</span><span>Analytics</span></div><a class="project-link" href="https://github.com/ImRo03/Analyzing_video-game_data_exel" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="analytics">
+          <div class="project-visual visual-retail"><span class="visual-tag">EXPLORATORY DATA ANALYSIS</span><div class="retail-lines"><i></i><i></i><i></i><i></i><i></i></div><b>Online<br>Retail</b></div>
+          <div class="project-content"><div class="project-meta"><span>DATA ANALYTICS</span><span>07</span></div><h3>Online Retail – Exploratory Data Analysis</h3><p>Investigated more than 525,000 retail transactions, handling missing values and duplicates while exploring sales patterns and geographical trends.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Seaborn</span></div><a class="project-link" href="https://github.com/ImRo03/Exploratory-Data-Analysis-Projects/tree/main/Online-Retail-2009-2010" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card" data-category="machine-learning">
+          <div class="project-visual visual-diabetes"><span class="visual-tag">PREDICTIVE ANALYTICS</span><div class="pulse"><span></span><span></span><span></span><span></span><span></span></div><b>Diabetes<br>Prediction</b></div>
+          <div class="project-content"><div class="project-meta"><span>MACHINE LEARNING PRACTICE</span><span>08</span></div><h3>Diabetes Prediction</h3><p>Explored diagnostic data, preprocessing, exploratory analysis, visualisation, and correlation analysis as preparation for a machine learning workflow.</p><div class="tags"><span>Python</span><span>EDA</span><span>Scikit-learn</span></div><a class="project-link" href="https://github.com/ImRo03/Diabetes-Prediction-using-Machine-Learning" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+      </div>
+      <div class="more-projects"><p>More notebooks, exercises, and learning repositories are available on GitHub.</p><a class="button button-dark" href="https://github.com/ImRo03?tab=repositories" target="_blank" rel="noreferrer">Browse all repositories ↗</a></div>
+    </section>
+
+    <section class="skills-band" id="skills">
+      <div class="section section-skills">
+        <div class="section-kicker">03 / TOOLKIT</div>
+        <div class="section-heading"><div><h2>Tools I use to<br><span>work with data.</span></h2></div><p>A growing toolkit built through coursework, independent practice, and hands-on projects.</p></div>
+        <div class="skill-groups">
+          <div class="skill-group"><span class="skill-number">01</span><div><h3>Programming & data</h3><p>Python · SQL · Pandas · NumPy · MySQL</p></div></div>
+          <div class="skill-group"><span class="skill-number">02</span><div><h3>Machine learning</h3><p>Scikit-learn · XGBoost · Regression · Classification · Model Evaluation</p></div></div>
+          <div class="skill-group"><span class="skill-number">03</span><div><h3>Analytics & visualisation</h3><p>Power BI · DAX · Matplotlib · Seaborn · Excel · EDA</p></div></div>
+          <div class="skill-group"><span class="skill-number">04</span><div><h3>Tools & workflow</h3><p>Jupyter Notebook · Git · GitHub · Data Preprocessing</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="section-kicker">04 / BACKGROUND</div>
+      <div class="section-heading"><div><h2>Learning is a<br><span>continuous process.</span></h2></div><p>My academic background and structured training have shaped my foundation in artificial intelligence and data science.</p></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-date">2025 — 2026</span><div><span class="timeline-type">PROFESSIONAL TRAINING</span><h3>Advanced Data Science and AIML</h3><p>upGrad, Pune. Practical learning across Python, SQL, statistics, data analysis, machine learning, and visualisation.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">MAR — APR 2026</span><div><span class="timeline-type">HACKATHON PARTICIPATION</span><h3>National Data and AI Hackathon</h3><p>upGrad Learning Support Centre. Worked on a Superstore retail business intelligence challenge using Power BI.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">2022 — 2025</span><div><span class="timeline-type">BACHELOR'S DEGREE</span><h3>B.Tech in Artificial Intelligence</h3><p>G. H. Raisoni College of Engineering and Management, Pune · Savitribai Phule Pune University.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">2019 — 2022</span><div><span class="timeline-type">DIPLOMA</span><h3>Computer Science and Engineering</h3><p>Government Polytechnic College, Amravati.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner"><div class="section-kicker">05 / CONTACT</div><h2>Let's turn data<br>into <span>something useful.</span></h2><p>Interested in data science, analytics, and machine learning opportunities. Feel free to connect.</p><a class="button button-primary" href="mailto:Irohan428@gmail.com">Say hello <span>↗</span></a><div class="contact-links"><a href="mailto:Irohan428@gmail.com">Irohan428@gmail.com</a><a href="https://www.linkedin.com/in/imro03/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/ImRo03" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">RI</span><span>Rohan Ingle</span></a><span>© <span id="year"></span> Rohan Ingle. Built with curiosity and data.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

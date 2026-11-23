@@ -2,6 +2,10 @@
 
 ### Data Science | Machine Learning | Python | SQL | Data Analytics
 
+🌐 **Portfolio:** [Explore My Data Science Portfolio](https://imro03.github.io/ImRo03/)
+
+Welcome to my GitHub profile!
+
 Welcome to my GitHub profile!
 
 I am Data Scientist with an academic background in Artificial Intelligence and a strong interest in data science, statistical exploration, and machine learning.
